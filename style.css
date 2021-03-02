@@ -1,0 +1,143 @@
+body
+{
+margin:0px;
+
+}
+#main-header
+{
+	background color: white;
+	background-image:url(restu1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	text-align: center;
+	}
+#head1
+{
+	font-size: 40px;
+	font-weight: bold;
+	width: 30%;
+	padding-left: 40px;
+	margin-left: 500px;
+	color: white;
+	border: 2px solid darkred;
+	box-shadow: 10px -20px 20px white;
+	border-radius: 20px 0px 20px 0px;
+	background-color: rgba(0,0,0,0.6);
+}	
+#main-nav
+{
+	background: linear-gradient(45deg,darkred,black,darkred,black);
+	padding:15px;
+	display: flex;
+	flex-direction: row;
+
+}
+#main-nav a
+{
+	color:white;
+	border:2px white solid;
+	box-shadow: 10px -10px 10px white;
+	border-radius: 20px 0px 20px 0px; 
+	margin:8px;
+	display: inline-block;
+	padding: 10px 20px;
+    width: 90px;
+}
+#main-nav a:hover
+{
+	box-shadow: 10px -10px 10px deeppink;
+}
+
+
+#main-section
+{
+	text-align: center;
+	margin: 15px 0px;
+}
+#main-section .main-section-article
+{
+ box-shadow: 10px -10px 10px black;
+ width: 330px;
+ height: 500px;
+ margin:10px;
+ padding-right: 20px;
+ display: inline-grid;
+ border-radius: 10px 30px 10px 30px;
+ transition: all 0.5s;	
+ background:linear-gradient(45deg,red,black);
+ color: white;
+ 
+}
+#main-section .main-section-article:hover
+{
+	width: 340px;
+	box-shadow:10px -10px 10px yellow;
+}
+.main-section-article .main-section-text
+{
+  width: 340px;
+  cursor: pointer;
+  color: white;
+
+
+}
+#main-section .main-section-article img
+{
+	margin-left: 20px;
+	width: 80%;
+	margin-right: 20px;
+	box-shadow: 0px -10px 10px white;
+}
+.main-section-article .main-section-text
+{
+	padding: 10px;
+}
+#main-section-news
+{
+width:80%;
+margin: auto;
+}
+#main-section-news .main-section-news-article
+{
+ border-radius: 2px solid white;
+ box-shadow: 10px -10px 10px limegreen;
+ margin: 10px;
+ overflow: hidden;
+ text-align: center;
+ background:linear-gradient(45deg,darkgreen,black);
+ color: white;
+ font-weight: bold;
+ width: 90%;
+ border-radius: 50px 0px 50px 0px;
+ margin: 30px auto;
+
+ text-align: center;
+}
+#main-section-news .main-section-news-article img
+{
+    border:2px solid white;
+	box-shadow: 10px 10px 10px white;
+	border-radius: 20px;
+	text-align: center;
+}
+#main-section-news .main-section-news-article h2
+{
+ border:2px solid limegreen;
+ box-shadow: 10px -10px 10px limegreen;
+ transition: all 0.7s;
+ margin-left: 400px;
+ width: 260px;
+ padding: 8px;
+ border-radius: 20px 0px 20px 0px;
+}
+#main-section-news .main-section-news-article h2:hover
+{
+	box-shadow: 10px -10px 20px white;
+	transform: scale(1.2,1.2);
+}
+
+
+
+
+
